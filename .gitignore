@@ -1,5 +1,12 @@
 #python specific 
 *.pyc
+*.o
+*.class
+*.h
+
+env/**
+
+
 
 
 ##generic files to ignore
@@ -8,4 +15,5 @@
 *.DS_Store
 *.swp
 *.out
-
+*.log
+*.tmp
